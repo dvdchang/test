@@ -5,7 +5,8 @@ REM (it should have the same columns as THD_PERSON but differ in the WHERE claus
 -- this view should be created under user BANINST1 (because of privs to underlying tables)
 --   ZXD 2013-9   added EFC, BUSINESS_HOLD , 
 --   ZXD 2013-8	added PHOTOPATH
--- \	change comments  
+--   2015-06-08  change comments  
+-- 
 -- #############################################################################
 SET SCAN OFF
 WHENEVER SQLERROR CONTINUE;
